@@ -27,7 +27,7 @@ gulp.task("sass", function(){
  
 gulp.task('scripts', function() {
     return gulp.src([
-        'assets/libs/jQuery/jquery.3.4.1.min.js',
+        'assets/libs/jQuery/jquery-3.5.1.min.js',
         'assets/js/src/**/*.js'
         ])
     .pipe(sourcemaps.init())
